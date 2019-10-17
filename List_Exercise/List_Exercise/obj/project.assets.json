@@ -480,11 +480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub_Mob_Al\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\List_Exercise.csproj",
+      "projectUniqueName": "C:\\Users\\opilane\\Desktop\\stnn\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\List_Exercise.csproj",
       "projectName": "List_Exercise",
-      "projectPath": "C:\\GitHub_Mob_Al\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\List_Exercise.csproj",
+      "projectPath": "C:\\Users\\opilane\\Desktop\\stnn\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\List_Exercise.csproj",
       "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub_Mob_Al\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\obj\\",
+      "outputPath": "C:\\Users\\opilane\\Desktop\\stnn\\Mobiilirakenduste_Alused\\List_Exercise\\List_Exercise\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

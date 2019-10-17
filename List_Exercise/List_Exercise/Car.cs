@@ -14,5 +14,10 @@ namespace List_Exercise
 {
     class Car
     {
+        public string Name { get; set; }
+        public string Manufacturer { get; set; }
+        public string Model { get; set; }
+        public string KW { get; set; }
+        public string Year { get; set; }
     }
 }

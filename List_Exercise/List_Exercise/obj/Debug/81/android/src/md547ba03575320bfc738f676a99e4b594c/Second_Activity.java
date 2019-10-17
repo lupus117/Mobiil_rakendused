@@ -2,7 +2,7 @@ package md547ba03575320bfc738f676a99e4b594c;
 
 
 public class Second_Activity
-	extends android.app.Activity
+	extends android.app.ListActivity
 	implements
 		mono.android.IGCUserPeer
 {

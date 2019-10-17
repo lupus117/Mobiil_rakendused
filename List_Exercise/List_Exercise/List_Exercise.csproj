@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicAdapter.cs" />
+    <Compile Include="BasicAdapterCar.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="First_Example_Activity.cs" />
     <Compile Include="MainActivity.cs" />

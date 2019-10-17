@@ -2585,9 +2585,6 @@ namespace List_Exercise
 			// aapt resource value: 0x7f08001d
 			public const int listMode = 2131230749;
 			
-			// aapt resource value: 0x7f0800af
-			public const int listView1 = 2131230895;
-			
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
@@ -2597,8 +2594,8 @@ namespace List_Exercise
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int message = 2131230896;
+			// aapt resource value: 0x7f0800b3
+			public const int message = 2131230899;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2792,20 +2789,23 @@ namespace List_Exercise
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int textView1 = 2131230894;
-			
 			// aapt resource value: 0x7f08009a
 			public const int text_input_password_toggle = 2131230874;
 			
+			// aapt resource value: 0x7f0800ae
+			public const int text_view1 = 2131230894;
+			
+			// aapt resource value: 0x7f0800af
+			public const int text_view2 = 2131230895;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int text_view3 = 2131230896;
+			
 			// aapt resource value: 0x7f0800b1
-			public const int text_view1 = 2131230897;
+			public const int text_view4 = 2131230897;
 			
 			// aapt resource value: 0x7f0800b2
-			public const int text_view2 = 2131230898;
-			
-			// aapt resource value: 0x7f0800b3
-			public const int text_view3 = 2131230899;
+			public const int text_view5 = 2131230898;
 			
 			// aapt resource value: 0x7f080014
 			public const int textinput_counter = 2131230740;
