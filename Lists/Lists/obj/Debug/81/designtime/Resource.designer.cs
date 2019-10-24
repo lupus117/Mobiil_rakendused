@@ -2384,6 +2384,15 @@ namespace Lists
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F010003
+			public const int btn1 = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int btn2 = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int btn3 = 2130771973;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
@@ -2495,11 +2504,11 @@ namespace Lists
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F020002
-			public const int linearLayout1 = 2130837506;
+			// aapt resource value: 0x7F010002
+			public const int linearLayout1 = 2130771970;
 			
-			// aapt resource value: 0x7F020007
-			public const int linearLayout2 = 2130837511;
+			// aapt resource value: 0x7F010010
+			public const int linearLayout2 = 2130771984;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
@@ -2690,41 +2699,68 @@ namespace Lists
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020003
-			public const int textView1 = 2130837507;
+			// aapt resource value: 0x7F010006
+			public const int textView1 = 2130771974;
 			
-			// aapt resource value: 0x7F020004
-			public const int textView2 = 2130837508;
+			// aapt resource value: 0x7F010007
+			public const int textView2 = 2130771975;
 			
-			// aapt resource value: 0x7F020005
-			public const int textView3 = 2130837509;
+			// aapt resource value: 0x7F010008
+			public const int textView3 = 2130771976;
 			
-			// aapt resource value: 0x7F020006
-			public const int textView4 = 2130837510;
+			// aapt resource value: 0x7F010009
+			public const int textView4 = 2130771977;
 			
-			// aapt resource value: 0x7F020008
-			public const int textView5 = 2130837512;
+			// aapt resource value: 0x7F010011
+			public const int textView5 = 2130771985;
 			
-			// aapt resource value: 0x7F020009
-			public const int textView6 = 2130837513;
+			// aapt resource value: 0x7F010012
+			public const int textView6 = 2130771986;
 			
-			// aapt resource value: 0x7F020010
-			public const int textView7 = 2130837520;
+			// aapt resource value: 0x7F010013
+			public const int textView7 = 2130771987;
 			
-			// aapt resource value: 0x7F020011
-			public const int textView8 = 2130837521;
+			// aapt resource value: 0x7F010014
+			public const int textView8 = 2130771988;
+			
+			// aapt resource value: 0x7F010023
+			public const int textView_Birth = 2130772003;
+			
+			// aapt resource value: 0x7F010022
+			public const int textView_Eye = 2130772002;
+			
+			// aapt resource value: 0x7F010018
+			public const int textView_Gender = 2130771992;
+			
+			// aapt resource value: 0x7F010020
+			public const int textView_Hair = 2130772000;
+			
+			// aapt resource value: 0x7F010016
+			public const int textView_Height = 2130771990;
+			
+			// aapt resource value: 0x7F010019
+			public const int textView_Homeworld = 2130771993;
+			
+			// aapt resource value: 0x7F010017
+			public const int textView_Mass = 2130771991;
+			
+			// aapt resource value: 0x7F010015
+			public const int textView_Name = 2130771989;
+			
+			// aapt resource value: 0x7F010021
+			public const int textView_Skin = 2130772001;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
-			// aapt resource value: 0x7F020012
-			public const int text_View1 = 2130837522;
+			// aapt resource value: 0x7F010024
+			public const int text_View1 = 2130772004;
 			
-			// aapt resource value: 0x7F020013
-			public const int text_View2 = 2130837523;
+			// aapt resource value: 0x7F010025
+			public const int text_View2 = 2130772005;
 			
-			// aapt resource value: 0x7F020014
-			public const int text_View3 = 2130837524;
+			// aapt resource value: 0x7F010026
+			public const int text_View3 = 2130772006;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
@@ -2911,8 +2947,8 @@ namespace Lists
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F010002
-			public const int activity_main = 2130771970;
+			// aapt resource value: 0x7F020002
+			public const int activity_main = 2130837506;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -3001,8 +3037,8 @@ namespace Lists
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F010003
-			public const int second_layout = 2130771971;
+			// aapt resource value: 0x7F020003
+			public const int second_layout = 2130837507;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3013,14 +3049,17 @@ namespace Lists
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
+			// aapt resource value: 0x7F020004
+			public const int Star_layout = 2130837508;
+			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F010004
-			public const int WeatherRow = 2130771972;
+			// aapt resource value: 0x7F020005
+			public const int WeatherRow = 2130837509;
 			
 			static Layout()
 			{

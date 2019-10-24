@@ -25,13 +25,13 @@ namespace Lists
 
             _items = new List<Car>()
             {
-                new Car(){Manufacturer = "Žiip", Model = "LandDriver", Year = "1980", KW ="10 Kw"},
-                new Car(){Manufacturer = "Sheep", Model = "LandWalker", Year = "1981", KW ="11 Kw"},
-                new Car(){Manufacturer = "Deep", Model = "SwampCrawler", Year = "1983", KW ="13 Kw"},
-                new Car(){Manufacturer = "Leap", Model = "Monarch", Year = "1985", KW ="9 Kw"},
-                new Car(){Manufacturer = "Creep", Model = "UltraSilent", Year = "1988", KW ="7 Kw"},
-                new Car(){Manufacturer = "Steep", Model = "Mountaneer", Year = "1990", KW ="15 Kw"},
-                new Car(){Manufacturer = "Leek", Model = "Spin", Year = "1992", KW ="10 Kw"},
+                new Car(){Manufacturer = "Tesla", Model = "roadster", Year = "2017", KW ="10 Kw"},
+                new Car(){Manufacturer = "Tesla", Model = "X", Year = "2015", KW ="11 Kw"},
+                new Car(){Manufacturer = "Tesla", Model = "Y", Year = "2019", KW ="13 Kw"},
+                new Car(){Manufacturer = "Tesla", Model = "3", Year = "2013", KW ="9 Kw"},
+                new Car(){Manufacturer = "Subaru", Model = "onliemilia", Year = "2002", KW ="7 Kw"},
+                new Car(){Manufacturer = "Mustang", Model = "Ford", Year = "1990", KW ="15 Kw"},
+                new Car(){Manufacturer = "Ford", Model = "Musang", Year = "1992", KW ="10 Kw"},
                 new Car(){Manufacturer = "Meek", Model = "Wrap", Year = "1993", KW ="6 Kw"},
                 new Car(){Manufacturer = "Seep", Model = "Car", Year = "1995", KW ="5 Kw"},
                 new Car(){Manufacturer = "Leak", Model = "Boot", Year = "1997", KW ="8 Kw"},
@@ -39,7 +39,7 @@ namespace Lists
 
             };
 
-            ListAdapter = new second_adapter(this, _items);
+            ListAdapter = new CarAdapter(this, _items);
 
             ListView.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
             {
