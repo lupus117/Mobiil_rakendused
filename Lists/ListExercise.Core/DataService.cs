@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Lists;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
@@ -11,12 +13,12 @@ namespace ListExercise.Core
         public static async Task<dynamic> GetDataFromService(string QueryString)
         {
             HttpClient client = new HttpClient();
-            var response = await client.GetAsync(QueryString);
+            var response = await client.GetStringAsync(QueryString);
 
-            dynamic data = null;
+            People data = null;
             if (response != null)
             {
-
+                data = JsonConvert.DeserializeObject<People>(response);
             }
             return data;
         }
