@@ -15,7 +15,6 @@ namespace StarWarsApp.Core.Models
         public string eye_color { get; set; }
         public string birth_year { get; set; }
         public string gender { get; set; }
-        public string homeworld { get; set; }
         public List<string> films { get; set; }
         public List<string> species { get; set; }
         public List<object> vehicles { get; set; }

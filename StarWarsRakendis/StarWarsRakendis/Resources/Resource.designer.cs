@@ -2429,9 +2429,6 @@ namespace StarWarsRakendis
 			// aapt resource value: 0x7f08003d
 			public const int bottom = 2131230781;
 			
-			// aapt resource value: 0x7f08008c
-			public const int button1 = 2131230860;
-			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
@@ -2588,14 +2585,14 @@ namespace StarWarsRakendis
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int masked = 2131230906;
+			// aapt resource value: 0x7f0800b9
+			public const int masked = 2131230905;
 			
 			// aapt resource value: 0x7f0800a2
 			public const int media_actions = 2131230882;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int message = 2131230904;
+			// aapt resource value: 0x7f0800b7
+			public const int message = 2131230903;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2686,6 +2683,9 @@ namespace StarWarsRakendis
 			
 			// aapt resource value: 0x7f080055
 			public const int scrollable = 2131230805;
+			
+			// aapt resource value: 0x7f08008c
+			public const int searchButton = 2131230860;
 			
 			// aapt resource value: 0x7f08008b
 			public const int searchEditText = 2131230859;
@@ -2792,23 +2792,20 @@ namespace StarWarsRakendis
 			// aapt resource value: 0x7f080069
 			public const int textSpacerNoTitle = 2131230825;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int textView_Birth = 2131230903;
-			
 			// aapt resource value: 0x7f0800b6
-			public const int textView_Eye = 2131230902;
+			public const int textView_Birth = 2131230902;
+			
+			// aapt resource value: 0x7f0800b5
+			public const int textView_Eye = 2131230901;
 			
 			// aapt resource value: 0x7f0800b2
 			public const int textView_Gender = 2131230898;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int textView_Hair = 2131230900;
+			// aapt resource value: 0x7f0800b3
+			public const int textView_Hair = 2131230899;
 			
 			// aapt resource value: 0x7f0800b0
 			public const int textView_Height = 2131230896;
-			
-			// aapt resource value: 0x7f0800b3
-			public const int textView_Homeworld = 2131230899;
 			
 			// aapt resource value: 0x7f0800b1
 			public const int textView_Mass = 2131230897;
@@ -2816,8 +2813,8 @@ namespace StarWarsRakendis
 			// aapt resource value: 0x7f0800af
 			public const int textView_Name = 2131230895;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int textView_Skin = 2131230901;
+			// aapt resource value: 0x7f0800b4
+			public const int textView_Skin = 2131230900;
 			
 			// aapt resource value: 0x7f08009b
 			public const int text_input_password_toggle = 2131230875;
@@ -2876,8 +2873,8 @@ namespace StarWarsRakendis
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int visible = 2131230905;
+			// aapt resource value: 0x7f0800b8
+			public const int visible = 2131230904;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;

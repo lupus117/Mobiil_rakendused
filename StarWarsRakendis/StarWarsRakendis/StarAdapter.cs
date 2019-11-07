@@ -54,7 +54,6 @@ namespace StarWarsRakendis
             view.FindViewById<TextView>(Resource.Id.textView_Height).Text = "Height: " + item.height;
             view.FindViewById<TextView>(Resource.Id.textView_Mass).Text = "Mass: " + item.mass;
             view.FindViewById<TextView>(Resource.Id.textView_Gender).Text = "Gender: " + item.gender;
-            view.FindViewById<TextView>(Resource.Id.textView_Homeworld).Text = "Homeworld: " + item.homeworld;
             view.FindViewById<TextView>(Resource.Id.textView_Hair).Text = "Hair: " + item.hair_color;
             view.FindViewById<TextView>(Resource.Id.textView_Skin).Text = "Skin: " + item.skin_color;
             view.FindViewById<TextView>(Resource.Id.textView_Eye).Text = "Eyes: " + item.eye_color;

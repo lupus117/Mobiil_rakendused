@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
 	<TextView
-			android:text="Name"
-			android:textStyle="bold"
-			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
-			android:id="@+id/textView_Name" />
+		android:text="Name"
+		android:textStyle="bold"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView_Name" />
 		<TextView
 			android:text="Height"
 			android:textStyle="bold"
@@ -27,22 +30,16 @@
 			android:text="Gender"
 			android:textStyle="bold"
 			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
 			android:paddingLeft="50dp"
+			android:layout_height="match_parent"
 			android:id="@+id/textView_Gender" />
-		<TextView
-			android:text="Homeworld"
-			android:textStyle="bold"
-			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
-			android:paddingLeft="50dp"
-			android:id="@+id/textView_Homeworld" />
+	
 		<TextView
 			android:text="Hair"
 			android:textStyle="bold"
+			android:paddingLeft="50dp"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:paddingLeft="50dp"
 			android:id="@+id/textView_Hair" />
 		<TextView
 			android:text="Skin"
@@ -55,14 +52,14 @@
 			android:text="Eye"
 			android:textStyle="bold"
 			android:layout_width="wrap_content"
-			android:layout_height="match_parent"
 			android:paddingLeft="50dp"
+			android:layout_height="match_parent"
 			android:id="@+id/textView_Eye" />
 		<TextView
 			android:text="Birth"
 			android:textStyle="bold"
+			android:paddingLeft="50dp"
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:paddingLeft="50dp"
 			android:id="@+id/textView_Birth" />
 </LinearLayout>
