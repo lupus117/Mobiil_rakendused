@@ -17,11 +17,20 @@ namespace StarWarsRakendis
             SetContentView(Resource.Layout.activity_main);
 
             var searchBar = FindViewById<EditText>(Resource.Id.searchEditText);
-            var searchButton = FindViewById<Button>(Resource.Id.searchButton);
+            var searchButtonPeople = FindViewById<Button>(Resource.Id.searchButtonPeople);
+            var searchButtonMovies = FindViewById<Button>(Resource.Id.searchButtonMovies);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
+          
+            searchButtonMovies.Click += async delegate
+            {
+                string searchWord = searchBar.Text;
+                string queryString = "https://swapi.co/api/films/?search=" + searchWord;
+                var data = await MovieDataService.GetDataFromService(queryString);
+                peopleListView.Adapter = new MovieAdapter(this, data.results);
 
+            };
 
-            searchButton.Click += async delegate
+            searchButtonPeople.Click += async delegate
             {
                 string searchWord = searchBar.Text;
                 string queryString = "https://swapi.co/api/people/?search=" + searchWord;
