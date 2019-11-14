@@ -4,7 +4,8 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary">
 	<LinearLayout
 		android:orientation="horizontal"
 		android:minWidth="25px"
@@ -33,6 +34,7 @@
 		android:textAppearance="?android:attr/textAppearanceMedium"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/txt_desc" />
+		android:id="@+id/txt_desc" 
+		android:textColor="@android:color/white"/>
 
 </LinearLayout>

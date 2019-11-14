@@ -128,12 +128,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Strwrs.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\mipmap-anydpi-v26\Strwrs.ico">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\movie_row_layout.axml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
